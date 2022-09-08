@@ -59,6 +59,9 @@ function App() {
             >
               Clear
             </button>
+            <h2>
+              Esto es una prueba
+            </h2>
           </div>
         )}
         {jobs.length === 0 ? (
