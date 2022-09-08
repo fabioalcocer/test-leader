@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 function App() {
   const [jobs, setJobs] = useState([]);
   const [filters, setFilters] = useState([]);
-	
+
   useEffect(() => {
     setJobs(data);
   }, []);
@@ -59,6 +59,9 @@ function App() {
             >
               Clear
             </button>
+            <h2>
+              Esto es una prueba
+            </h2>
           </div>
         )}
         {jobs.length === 0 ? (
@@ -74,3 +77,5 @@ function App() {
 }
 
 export default App;
+
+// el json no sirve para nada
